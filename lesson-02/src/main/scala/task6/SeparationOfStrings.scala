@@ -2,6 +2,11 @@ package task6
 
 import scala.annotation.tailrec
 
+/**
+ * This case implement function
+ * that takes a list of strings and returns
+ * a new string consisting of all space-separated strings in the list.
+ */
 object SeparationOfStrings {
   def main(args: Array[String]): Unit = {
     val list = List("Мама", "мыла", "раму")
